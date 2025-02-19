@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    width: 800px;
+    margin: auto;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: blue;
+    width: 650px;
+    height: 20px;
+    padding: 3px;
+    color: white;
+}
+div#main {
+    margin:auto;
+    width: 650px;
+}
+
+div#frame {
+    background-color: #c4c4c4;
+    width: 650px;
+    height: 450px;
+    border-style: outset;
+    text-align: center;
+}
+    
+
+div#screen {
+    width: 800px;
+    height: 600px;
+    background-color: #008080;
+}
+
+#lockedAlert {
+    text-align:left;
+    font-size: 20px;
+
+}
