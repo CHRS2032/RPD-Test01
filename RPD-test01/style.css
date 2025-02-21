@@ -5,12 +5,11 @@ body {
 }
 
 nav {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     background-color: blue;
-    width: 650px;
-    height: 20px;
-    padding: 3px;
+    width: 648px;
+    height: unset;
+    padding: 4px;
     color: white;
 }
 div#main {
@@ -19,13 +18,15 @@ div#main {
 }
 
 div#frame {
-    background-color: #c4c4c4;
+    background-color:navy;
     width: 650px;
     height: 450px;
     border-style: outset;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    color: white;
+    font-size: 32px;
 }
-    
 
 div#screen {
     width: 800px;
@@ -36,5 +37,8 @@ div#screen {
 #lockedAlert {
     text-align:left;
     font-size: 20px;
+}
 
+a.linksColor {
+    color: #00ff00;
 }
